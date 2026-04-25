@@ -36,7 +36,7 @@ Where `h` is water depth, `qx = h·u` and `qy = h·v` are momentum components, a
 ## Requirements
 
 - Python 3.9+
-- CUDA-capable GPU (tested on RTX 4050 6 GB)
+- CUDA-capable GPU 
 - PyTorch with CUDA 12.1
 - DeepXDE
 - NumPy, Matplotlib, Pillow
@@ -53,7 +53,7 @@ pip install deepxde matplotlib numpy pillow
 ## Usage
 
 ```bash
-python swe2d_circular_dam.py
+python SWE_2D.ipynb
 ```
 
 The script runs end-to-end: installs packages, sets up the problem, runs the reference solver, trains the PINN in two Adam phases followed by L-BFGS, runs inference, and saves all outputs.
