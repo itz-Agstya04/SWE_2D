@@ -39,18 +39,12 @@ Thumbs.db
 # Model checkpoints (IMPORTANT)
 # =========================
 models_2d/
-*.pt
 *.pth
 *.ckpt
 
 # =========================
 # Results / outputs (IMPORTANT)
 # =========================
-results_2d/
-*.png
-*.jpg
-*.jpeg
-*.pdf
 
 # =========================
 # Temporary / cache

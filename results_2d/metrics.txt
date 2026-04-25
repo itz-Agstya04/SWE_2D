@@ -1,0 +1,7 @@
+h L2 error:       2.243672e-01
+h Linf error:     1.773193e+00
+h rel L2:         2.051293e-01
+Mass drift:       17.7627 %
+Ref solver time:  0.143 s
+PINN infer time:  333.331 ms
+Speedup:          x0
