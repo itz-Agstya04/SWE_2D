@@ -30,17 +30,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Model checkpoints (IMPORTANT)
-# =========================
-models_2d/
-*.pth
-*.ckpt
 
 # =========================
 # Results / outputs (IMPORTANT)
